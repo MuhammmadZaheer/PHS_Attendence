@@ -1,0 +1,43 @@
+
+.main {
+  padding: 20px; /* Add padding for spacing */
+}
+.card-container {
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+  display: inline-block;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+ 
+}
+.tracking-container {
+  width: 100%;
+  margin: 0;
+}
+  .card-details {
+    border: 1px solid rgb(139, 135, 135); /* Border around each card */
+    border-radius: 10px; /* Optional: Apply border radius */
+    margin: 10px; /* Adjust margin for spacing between cards */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    padding-bottom: 18px;
+     }
+   
+  .id{
+    padding: 20px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .name{
+    font-weight: 600;
+    font-size: 18px;
+  }
+  span{
+      padding-left: 10px;
+  }
+  .card{
+      margin: 10px 10px 10px 10px;
+      
+  }
+ 
+  

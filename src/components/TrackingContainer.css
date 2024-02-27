@@ -1,0 +1,66 @@
+.tracking{
+    margin: 10px 10px 10px 10px;
+    border: none;  
+}
+
+.tracking_cards{ 
+    border: 1px solid rgb(245, 242, 242);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    size: 200px;
+   width:fit-content;
+   padding: 5px;
+   background: #EEEEEE;
+   box-shadow: 0px 4px 8px hsla(0, 0%, 15%, 0.102); 
+overflow-x: auto;
+    
+}
+.tracking_cards:hover{
+cursor: pointer;
+background-color: #C7C8CC;
+color: #1b0808;
+}
+.checks-span{
+   margin: 10px;
+   display: flex;
+   gap: 10px;
+}
+
+.Check-in {
+    background: #84adeb;
+   padding: 0;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(245, 242, 242);
+    margin-right: 0px;  
+    font-weight: 600;
+    padding:4px;
+}
+.Check-out{
+    background: rgb(190, 148, 166);
+   padding:4px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(245, 242, 242);
+    font-weight: 600;
+}
+.checks-in-time{
+    padding: 0px;
+    margin-right: 5px;
+    font-weight: 500;     
+}
+.checks-out-time{
+    padding:0px;
+   
+    font-weight: 500;
+}
+.checks-time{
+    display: flex;
+    
+    gap: 10px;
+    
+}
